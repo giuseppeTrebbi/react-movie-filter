@@ -3,10 +3,13 @@ import Header from "./components/Header"
 
 function App() {
 
-  return (<>
-    <Header />
-    <DropdownMenu />
-  </>
+  return (
+    <>
+      <body className="text-bg-dark">
+        <Header />
+        <DropdownMenu />
+      </body>
+    </>
   )
 }
 
